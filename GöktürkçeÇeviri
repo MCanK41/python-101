@@ -1,0 +1,137 @@
+
+print("""
+
+           Göktürkçe Çeviri
+
+İstediğiniz Türkçe kelimeyi Göktürkçe'ye çevirebilirsiniz
+
+
+
+
+
+""")
+
+Text = ""
+anahtar = 1
+
+while anahtar == 1:
+    islem = str(input("Çevirmek İstediğiniz Şeyi girin "))
+    Kelime = list(islem)
+    for Veri in Kelime:
+        if Veri == "a":
+            print("𐰀")
+            Text = Text + "𐰀"
+
+        elif Veri == "b":
+            print("𐰋")
+            Text = Text + "𐰋"
+
+        elif Veri == "c":
+            print("𐰲")
+            Text = Text + "𐰲"
+
+        elif Veri == "ç":
+            print("𐰲")
+            Text = Text + "𐰲"
+
+        elif Veri == "d":
+            print("𐰓")
+            Text = Text + "𐰓"
+
+        elif Veri == "e":
+            print("𐰀")
+            Text = Text + "𐰀"
+
+        elif Veri == "f":
+            print("𐰯")
+            Text = Text + "𐰯"
+
+        elif Veri == "g":
+            print("𐰏")
+            Text = Text + "𐰏"
+
+        elif Veri == "ğ":
+            print("𐰏")
+            Text = Text + "𐰏"
+
+        elif Veri == "h":
+            print("𐰚")
+            Text = Text + "𐰚"
+
+        elif Veri == "ı":
+            print("𐰃")
+            Text = Text + "𐰃"
+
+        elif Veri == "i":
+            print("𐰃")
+            Text = Text + "𐰃"
+
+        elif Veri == "j":
+            print("𐰲")
+            Text = Text + "𐰲"
+
+        elif Veri == "k":
+            print("𐰚")
+            Text = Text + "𐰚"
+
+        elif Veri == "l":
+            print("𐰠")
+            Text = Text + "𐰠"
+
+        elif Veri == "m":
+            print("𐰢")
+            Text = Text + "𐰢"
+
+        elif Veri == "n":
+            print("𐰤")
+            Text = Text + "𐰤"
+
+        elif Veri == "o":
+            print("𐰆")
+            Text = Text + "𐰆"
+
+        elif Veri == "ö":
+            print("𐰇")
+            Text = Text + "𐰇"
+
+        elif Veri == "p":
+            print("𐰯")
+            Text = Text + "𐰯"
+
+        elif Veri == "r":
+            print("𐰼")
+            Text = Text + "𐰼"
+
+        elif Veri == "s":
+            print("𐰾")
+            Text = Text + "𐰾"
+
+        elif Veri == "ş":
+            print("𐱁")
+            Text = Text + "𐱁"
+
+        elif Veri == "t":
+            print("𐱅")
+            Text = Text + "𐱅"
+
+        elif Veri == "u":
+            print("𐰆")
+            Text = Text + "𐰆"
+
+        elif Veri == "ü":
+            print("𐰇")
+            Text = Text + "𐰇"
+
+        elif Veri == "v":
+            print("𐰋")
+            Text = Text + "𐰋"
+
+        elif Veri == "y":
+            print("𐰘")
+            Text = Text + "𐰘"
+
+        elif Veri == "z":
+            print("𐰔")
+            Text = Text + "𐰔"
+    print(f"Çevirili Hali = {Text}")
+    Text = ""
