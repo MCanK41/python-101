@@ -1,0 +1,13 @@
+boy = int(input("Lütfen kilonuzu girin:"))
+kilo = int(input("Lütfen boyunuzu girin:"))
+
+endeks = kilo / (boy * boy)
+
+if endeks < 18:
+    print("-----Zayıf.-----")
+
+elif endeks < 18 or endeks < 25:
+    print("-----Normalsiniz.-----")
+
+else:
+    print("-----Şüşko.-----")
