@@ -1,0 +1,3 @@
+taksimetre = int(input("Kaç kilometre gideceksiniz?"))
+
+print(taksimetre*8.51+12.65)
