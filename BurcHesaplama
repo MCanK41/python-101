@@ -1,0 +1,96 @@
+ay = input("Hangi Ayda Doğdunuz?")
+gun = int(input("Hangi Günde Doğdunuz?"))
+
+if ay == "mart":
+ if gun > 21:
+     print("Koç")
+
+ elif gun < 21:
+     print("Balık")
+#=============================================
+if ay == "nisan":
+ if gun > 21:
+     print("Boğa")
+
+ elif gun < 21:
+     print("Koç")
+
+     # =============================================
+if ay == "İkizler":
+ if gun > 22:
+     print("Koç")
+
+ elif gun < 21:
+     print("Boğa")
+     # =============================================
+if ay == "haziran":
+ if gun > 23:
+     print("Koç")
+
+ elif gun < 21:
+     print("İkizler")
+     # =============================================
+
+if ay == "temmuz":
+ if gun > 23:
+     print("Aslan")
+
+ elif gun <= 21:
+     print("Yengeç")
+#=============================================
+if ay == "ağustos":
+ if gun > 23:
+     print("Başak")
+
+ elif gun < 21:
+     print("Aslan")
+
+     # =============================================
+if ay == "Eylül":
+ if gun > 23:
+     print("Terazi")
+
+ elif gun < 21:
+     print("Başak")
+     # =============================================
+if ay == "ekim":
+ if gun > 23:
+     print("Akrep")
+
+ elif gun < 21:
+     print("Terazi")
+     # =============================================
+
+#=============================================
+if ay == "kasım":
+ if gun > 22:
+     print("Yay")
+
+ elif gun < 21:
+     print("Akrep")
+
+     # =============================================
+if ay == "aralık":
+ if gun > 22:
+     print("Oğlak")
+
+ elif gun < 21:
+     print("Yay")
+     # =============================================
+if ay == "Ocak":
+ if gun > 22:
+     print("Kova")
+
+ elif gun < 19:
+     print("Oğlak")
+     # =============================================
+
+if ay == "şubat":
+ if gun > 20:
+     print("Balık")
+
+ elif gun < 20:
+     print("Kova")
+     # =============================================
+
+print(gun, ay, "Doğum Gününüz")
